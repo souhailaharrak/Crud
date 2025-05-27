@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Appliquer une police simple et un fond clair à toute la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Centrer le formulaire et donner un style au fieldset */
+form {
+  max-width: 500px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+legend {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Styliser les champs de formulaire */
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+  display: block;
+  width: 90%;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Bouton submit */
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style du tableau */
+table {
+  width: 80%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+/* Lignes alternées */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Liens edit/delete */
+a {
+  margin-right: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
